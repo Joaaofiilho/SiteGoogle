@@ -1,0 +1,130 @@
+.header-google{
+    display: grid;
+    grid-template-columns: 150px 450px 150px;
+    grid-template-rows: 50px 50px;
+}
+
+.logo-google{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #0a5184;
+}
+
+.barra-pesquisa{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #993412;
+}
+
+.ferramentas{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #3d3837;
+}
+
+.nav-bar{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #1ea070;
+}
+
+
+.corpo-main{
+    display: grid;
+    grid-template-rows: 20px 120px 120px 120px 120px 120px;
+    grid-template-columns: auto;
+}
+
+.feedback-result{
+    grid-row: 1;
+    background-color: #757575;
+}
+
+.box-result1{
+    grid-row: 2;
+    background-color: #dd6000;
+}
+
+.box-result2{
+    grid-row: 3;
+    background-color: #af4d01;
+}
+
+.box-result3{
+    grid-row: 4;
+    background-color: #773501;
+}
+
+.box-result4{
+    grid-row: 5;
+    background-color: #4c2200;
+}
+
+.box-result5{
+    grid-row: 6;
+    background-color: #2b1300;
+}
+
+.titulo-pesquisa{
+    font-size: 20px;
+    color: #2669a8;
+}
+
+.descricao-pesquisa{
+    font-size: 16px;
+    color: #686868;
+}
+/*
+.corpo{
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 50px 50px 30px 150px 150px 150px;
+}
+
+.logo-google{
+    background-color: #496072;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.barra-pesquisa{
+    background-color: #482e84;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.nav-bar{
+    background-color: #12682c;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.feedback-result{
+    background-color: #1e82a0;
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box-result1{
+    background-color: #a53e18;
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box-result2{
+    background-color: #843112;
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box-result3{
+    background-color: #4c1c0a;
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+*/
