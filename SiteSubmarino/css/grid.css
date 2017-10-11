@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header-main{
+	display: grid;
+	grid-template-columns: 15% 58% 16% 11%;
+	grid-template-rows: 70px 23px;
+}
+
+.logo-site{
+	grid-row: 1;
+	grid-column: 1;
+	background-color: #FFFF00;
+}
+
+.search-bar{
+	grid-row: 1;
+	grid-column: 2;
+	background-color: #33CC99;
+}
+
+.user{
+	grid-row: 1;
+	grid-column: 3;
+	background-color: #CC6600;
+}
+
+.bag{
+	grid-row: 1;
+	grid-column: 4;
+	background-color: #CC0000;
+}
+
+.search-suggestion{
+	grid-row: 2;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: #330099;
+}
+
+
+.body-site{
+	display: grid;
+	grid-template-columns: 10% 25% 20% 20% 25%;
+	grid-template-rows: 20% 10% 70%;
+}
+
+.menu-lateral{
+	grid-column: 1;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	background-color: #993300;
+}
