@@ -41,8 +41,8 @@
 
 .body-site{
 	display: grid;
-	grid-template-columns: 10% 25% 20% 20% 25%;
-	grid-template-rows: 20% 10% 70%;
+	grid-template-columns: 15% 22% 21% 21% 21%;
+	grid-template-rows: 80px 60px 340px;
 }
 
 .menu-lateral{
@@ -50,4 +50,42 @@
 	grid-row-start: 1;
 	grid-row-end: 4;
 	background-color: #993300;
+}
+
+.titulo-pesquisa{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row: 1;
+    background-color: #223300;
+}
+
+.feedback-produtos{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row: 2;
+    background-color: #11F300;
+}
+
+.box-result1{
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #bf02e5;
+}
+
+.box-result2{
+    grid-row: 3;
+    grid-column: 3;
+    background-color: #9000ad;
+}
+
+.box-result3{
+    grid-row: 3;
+    grid-column: 4;
+    background-color: #630077;
+}
+
+.box-result4{
+    grid-row: 3;
+    grid-column: 5;
+    background-color: #3b0047;
 }
